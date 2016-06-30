@@ -5,7 +5,15 @@ Toronto office? Here are the instructions for you!
 
 ## Instructions
 
-Clone this repository (yes, I know I'm terrible for keeping binaries in a git repo)
+Install the prerequisites (I recommend using homebrew)
+
+```bash
+$ xcode-select --install
+$ brew install lzo
+```
+
+Clone this repository, this will take a while because it contains a binary copy
+of a clang toolchain (which is a gross thing to keep in git, I know)
 
 ```bash
 $ git clone https://github.com/mystor/icecc-osx-moztor ~/icecream
@@ -21,7 +29,6 @@ $ sudo ~/icecream/install.sh 10.242.24.68
 Update your mozconfig to point cc and c++ to the compiler wrappers
 
 ```bash
-# mozconfig
 CC="$HOME/icecream/cc"
 CXX="$HOME/icecream/c++"
 ```
