@@ -3,6 +3,10 @@
 Want to build a clobber of Firefox in 5 minutes on your Mac laptop in the
 Toronto office? Here are the instructions for you!
 
+> NOTE: This version of icecc doesn't seem to work correctly on macOS 10.12. 
+> https://github.com/mstange/icecc-osx-moztor has an updated version which 
+> may work better for more recent xcode versions.
+
 ## Instructions
 
 Install the prerequisites (I recommend using homebrew)
