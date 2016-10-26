@@ -12,7 +12,7 @@ Toronto office? Here are the instructions for you!
 Install the prerequisites (I recommend using homebrew)
 
 ```bash
-$ xcode-select --install
+$ xcode-select --install  # Make sure to re-run this command when you update xcode
 $ brew install lzo
 ```
 
